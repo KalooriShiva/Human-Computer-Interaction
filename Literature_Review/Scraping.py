@@ -7,16 +7,51 @@ from scholarly import scholarly
 # Step 1: Define Keywords
 # -------------------------------
 keywords = [
-    "automatic text simplification dyslexia",
-    "text simplification ADHD education AI",
+    # Core AI text simplification
+    "AI-based text simplification",
+    "automatic text simplification",
+    "neural text simplification education",
+    "semantic text simplification cognitive accessibility",
+    "sentence simplification learning disabilities",
+    "readability enhancement NLP education",
+
+    # Cognitive accessibility & disabilities
+    "text simplification dyslexia",
+    "text simplification ADHD education",
+    "AI tools for cognitive accessibility",
+    "assistive technology for learning disabilities",
+    "inclusive education AI accessibility",
+    "accessible academic texts NLP",
+
+    # Multilingual / Indian language focus
     "Hindi text simplification accessibility",
-    "cognitive accessibility sentence simplification school curriculum",
-    "multilingual text simplification education technology disabilities",
+    "Indian languages text simplification AI",
+    "regional language text simplification education",
+    "multilingual NLP accessibility",
+    "low-resource language simplification education",
+
+    # Text-to-Speech and multimodal support
     "text-to-speech cognitive accessibility",
+    "synchronized text-to-speech education AI",
     "AI text simplification with TTS",
+    "speech-enabled educational accessibility",
+    "multimodal learning accessibility AI",
+
+    # Curriculum alignment & integration
+    "curriculum aligned text simplification",
+    "school curriculum AI accessibility",
     "adaptive learning accessibility NLP",
-    "Indian languages educational accessibility AI",
+    "educational management systems accessibility AI",
+    "personalized learning disabilities AI",
+
+    # Current solutions (comparisons / baselines)
+    "Rewordify text simplification education",
+    "Simple English Wikipedia readability",
+    "Microsoft Immersive Reader accessibility",
+    "Read and Write TextHelp accessibility",
+    "Indian educational platforms text-to-speech",
 ]
+
 
 # -------------------------------
 # Step 2: Function to Collect Papers
