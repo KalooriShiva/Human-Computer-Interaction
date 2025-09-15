@@ -8,49 +8,43 @@ from scholarly import scholarly
 # -------------------------------
 keywords = [
     # Core AI text simplification
-    "AI-based text simplification",
-    "automatic text simplification",
+    "AI text simplification",
     "neural text simplification education",
-    "semantic text simplification cognitive accessibility",
-    "sentence simplification learning disabilities",
-    "readability enhancement NLP education",
+    "sentence simplification readability enhancement",
 
-    # Cognitive accessibility & disabilities
+    # Accessibility & learning disabilities
     "text simplification dyslexia",
     "text simplification ADHD education",
-    "AI tools for cognitive accessibility",
-    "assistive technology for learning disabilities",
-    "inclusive education AI accessibility",
-    "accessible academic texts NLP",
+    "text simplification learning disabilities",
+    "cognitive accessibility text simplification",
 
     # Multilingual / Indian language focus
     "Hindi text simplification accessibility",
-    "Indian languages text simplification AI",
-    "regional language text simplification education",
-    "multilingual NLP accessibility",
-    "low-resource language simplification education",
+    "Indian languages text simplification",
+    "low resource language simplification",
+    "multilingual text simplification education",
 
-    # Text-to-Speech and multimodal support
-    "text-to-speech cognitive accessibility",
-    "synchronized text-to-speech education AI",
-    "AI text simplification with TTS",
-    "speech-enabled educational accessibility",
-    "multimodal learning accessibility AI",
+    # TTS & multimodal learning
+    "AI text simplification text to speech",
+    "multimodal learning accessibility",
+    "speech enabled educational accessibility",
 
-    # Curriculum alignment & integration
+    # Curriculum & learning outcomes
     "curriculum aligned text simplification",
-    "school curriculum AI accessibility",
-    "adaptive learning accessibility NLP",
-    "educational management systems accessibility AI",
-    "personalized learning disabilities AI",
+    "adaptive learning text simplification",
+    "student performance text simplification",
 
-    # Current solutions (comparisons / baselines)
-    "Rewordify text simplification education",
-    "Simple English Wikipedia readability",
-    "Microsoft Immersive Reader accessibility",
-    "Read and Write TextHelp accessibility",
-    "Indian educational platforms text-to-speech",
+    # Explainability & interpretability
+    "explainable AI educational accessibility",
+    "interpretable NLP education accessibility",
+
+    # Interdomain
+    "AI accessibility inclusive education",
+    "assistive technology cognitive accessibility",
+    "multilingual NLP educational technology"
 ]
+
+
 
 
 # -------------------------------
@@ -77,10 +71,7 @@ def search_papers(query, max_results=10, retries=3):
                         "link": paper.get("pub_url", "N/A"),
                         "abstract": paper.get("bib", {}).get("abstract", "N/A"),
                         "author keywords": "N/A",
-                        "index keywords": "N/A",
-                        "aim": "N/A",              # e.g., main research objective
-                        "expected output": "N/A",  # e.g., simplified text, improved accessibility
-                        "explainability": "N/A"
+                        "index keywords": "N/A"
                     })
                 except StopIteration:
                     break
