@@ -77,7 +77,10 @@ def search_papers(query, max_results=10, retries=3):
                         "link": paper.get("pub_url", "N/A"),
                         "abstract": paper.get("bib", {}).get("abstract", "N/A"),
                         "author keywords": "N/A",
-                        "index keywords": "N/A"
+                        "index keywords": "N/A",
+                        "aim": "N/A",              # e.g., main research objective
+                        "expected output": "N/A",  # e.g., simplified text, improved accessibility
+                        "explainability": "N/A"
                     })
                 except StopIteration:
                     break
