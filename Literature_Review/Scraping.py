@@ -8,40 +8,40 @@ from scholarly import scholarly
 # -------------------------------
 keywords = [
     # Core AI text simplification
-    "AI text simplification",
-    "neural text simplification education",
-    "sentence simplification readability enhancement",
+    "Low resource Indic text simplification",
+    #"neural text simplification education",
+    "Low resource Indic sentence simplification readability enhancement",
 
     # Accessibility & learning disabilities
-    "text simplification dyslexia",
-    "text simplification ADHD education",
-    "text simplification learning disabilities",
-    "cognitive accessibility text simplification",
+    "Low resource Indic text simplification dyslexia/ADHD",
+    "Low resource Indic text simplification learning disabilities",
+    #"cognitive ease text simplification",
 
     # Multilingual / Indian language focus
-    "Hindi text simplification accessibility",
-    "Indian languages text simplification",
-    "low resource language simplification",
-    "multilingual text simplification education",
+    #"Hindi text simplification accessibility",
+    #"Indian languages text simplification",
+    "Low resource Indian language text simplification",
+    "Multilingual Indic text simplification education",
 
     # TTS & multimodal learning
-    "AI text simplification text to speech",
-    "multimodal learning accessibility",
-    "speech enabled educational accessibility",
+    #"Indic text to speech",
+    "Low resource Indic TTS",
+    #"multimodal learning accessibility",
+    #"speech enabled educational accessibility",
 
-    # Curriculum & learning outcomes
-    "curriculum aligned text simplification",
-    "adaptive learning text simplification",
-    "student performance text simplification",
+    # # Curriculum & learning outcomes
+    # "curriculum aligned text simplification",
+    # "adaptive learning text simplification",
+    # "student performance text simplification",
 
     # Explainability & interpretability
-    "explainable AI educational accessibility",
-    "interpretable NLP education accessibility",
+    # "explainable AI educational accessibility",
+    # "interpretable NLP education accessibility",
 
     # Interdomain
-    "AI accessibility inclusive education",
-    "assistive technology cognitive accessibility",
-    "multilingual NLP educational technology"
+    # "AI accessibility inclusive education",
+    # "assistive technology cognitive accessibility",
+    # "multilingual NLP educational technology"
 ]
 
 
